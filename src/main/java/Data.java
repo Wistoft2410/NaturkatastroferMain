@@ -1,8 +1,11 @@
 import processing.core.PApplet;
 
-public class Data extends PApplet {
+public class Data {
 
-    Data(){
+    PApplet p;
+
+    Data(PApplet tempP){
+        this.p = tempP;
 
     }
 }
